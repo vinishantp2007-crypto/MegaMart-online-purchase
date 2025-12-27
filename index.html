@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MegaMart</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">                                      
+</head>
+<body>
+
+<!-- ===== TOP BAR ===== -->
+<div class="top-bar">
+  <div class="container d-flex justify-content-between">
+    <span>Welcome to MegaMart</span>
+    <span>English | USD</span>
+  </div>
+</div>
+
+
+<!-- ===== NAVBAR ===== -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+  <div class="container">
+
+    <!-- Brand -->
+    <a class="navbar-brand text-primary fw-bold" href="#">MegaMart</a>
+
+    <!-- Toggle Button -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar Content -->
+    <div class="collapse navbar-collapse" id="menu">
+
+      <!-- Nav Links -->
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" onclick="goCategory('grocery')">Grocery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" onclick="goCategory('electronics')">Electronics</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" onclick="goCategory('beauty')">Beauty</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" onclick="goCategory('home')">Home</a>
+        </li>
+      </ul>
+      
+
+      <!-- Search Bar -->
+      <form class="d-flex me-3">
+        <input class="form-control me-2" type="search" placeholder="Search products">
+        <button class="btn btn-outline-primary" type="submit">Search</button>
+      </form>
+
+      <!-- Sign In Button -->
+      <a href="login.html" class="btn btn-outline-primary">Sign In</a>
+
+    </div>
+  </div>
+</nav>  
+  </div>
+</nav>
+
+<!-- ===== HERO BANNER ===== -->
+
+<div class="slider">
+  <div class="slides">
+
+    <!-- Slide 1 -->
+    <div class="slide active">
+      <div class="content">
+        <p>Best Deal Online on smart watches</p>
+        <h1>SMART WEARABLE</h1>
+        <span>UP TO 80% OFF</span>
+      </div>
+      <img src="watch1.jpg" alt="Smart Watch">
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="slide">
+      <div class="content">
+        <p>New Arrival Fitness Watches</p>
+        <h1>FIT SMART</h1>
+        <span>UP TO 60% OFF</span>
+      </div>
+      <img src="watch2.jpg" alt="Watch">
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="slide">
+      <div class="content">
+        <p>Premium Smart Watches</p>
+        <h1>STYLE & TECH</h1>
+        <span>UP TO 70% OFF</span>
+      </div>
+      <img src="watch4.jpg" alt="Watch">
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <button class="prev">❮</button>
+  <button class="next">❯</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+<!-- ===== SMARTPHONES ===== -->
+<section class="smartphones">
+  <h2 class="section-title">Grab the Best Deals on Smartphones</h2>
+
+  <div class="phone-container">
+    <div class="phone-card">
+      <span class="offer-badge">20% OFF</span>
+      <img src="phone1.jpg" alt="">
+      <h4>Galaxy M13</h4>
+      <p class="price">₹12,999 <del>₹15,999</del></p>
+    </div>
+
+    <div class="phone-card">
+      <span class="offer-badge">25% OFF</span>
+      <img src="phone2.jpg" alt="">
+      <h4>iphone 16 pro </h4>
+      <p class="price">₹50,499 <del>₹58,999</del></p>
+    </div>
+
+    <div class="phone-card">
+      <span class="offer-badge">30% OFF</span>
+      <img src="phone8.jpg" alt="">
+      <h4>iphone 15 pro</h4>
+      <p class="price">₹45,999 <del>₹56,999</del></p>
+    </div>
+
+    <div class="phone-card">
+      <span class="offer-badge">15% OFF</span>
+      <img src="phone4.jpg" alt="">
+      <h4>iQOO Z6</h4>
+      <p class="price">₹17,999 <del>₹21,999</del></p>
+    </div>
+  </div>
+</section>
+
+  <h2 class="section-title">Mega  Deals on Electronics</h2>
+
+  <div class="phone-container">
+    <div class="phone-card">
+      <span class="offer-badge">20% OFF</span>
+      <img src="tv1.jpg" alt="">
+      <h4> LG , Full HD smart  TV</h4>
+      <p class="price">₹42,999 <del>₹55,999</del></p>
+    </div>
+
+    <div class="phone-card">
+      <span class="offer-badge">25% OFF</span>
+      <img src="washing machine1.jpg" alt="">
+      <h4>whirlpool ,Top Load  Washing machine</h4>
+      <p class="price">₹18,499 <del>₹25,999</del></p>
+    </div>
+
+    <div class="phone-card">
+      <span class="offer-badge">30% OFF</span>
+      <img src="fridge1.jpg" alt="">
+      <h4>Realme , double door fridge</h4>
+      <p class="price">₹30,999 <del>₹46,999</del></p>
+    </div>
+
+    <div class="phone-card">
+      <span class="offer-badge">15% OFF</span>
+      <img src="air fryer.jpg" alt="">
+      <h4>iQ , Air fryer</h4>
+      <p class="price">₹7,999 <del>₹8,999</del></p>
+    </div>
+  </div>
+</section>
+<!-- Top Categories Section -->
+<section class="top-categories">
+  <h2 class="section-title">Shop From Top Categories</h2>
+
+  <div class="category-container">
+    <div class="category-card">
+      <img src="iphone 17.jpg" alt="">
+      <p>Mobiles</p>
+    </div>
+    <div class="category-card">
+      <img src="cosmetic.jpg" alt="">
+      <p>Cosmetics</p>
+    </div>
+    <div class="category-card">
+      <img src="air fryer.jpg" alt="">
+      <p>Electronics</p>
+    </div>
+    <div class="category-card">
+      <img src="furniture.jpg" alt="">
+      <p>Furniture</p>
+    </div>
+    <div class="category-card">
+      <img src="watch1.jpg" alt="">
+      <p>Watches</p>
+    </div>
+    <div class="category-card">
+      <img src="decor.jpg" alt="">
+      <p>Decor</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- Daily Essentials Section -->
+<section class="daily-essentials">
+  <h2 class="section-title">Daily Essentials</h2>
+
+  <div class="essentials-container">
+    <div class="essential-card">
+      <img src="grocery.jpg" alt="">
+      <h4>Grocery</h4>
+      <span>UP TO 50% OFF</span>
+    </div>
+
+    <div class="essential-card">
+      <img src="veg.jpg" alt="">
+      <h4>Vegetables</h4>
+      <span>UP TO 40% OFF</span>
+    </div>
+
+    <div class="essential-card">
+      <img src="fruits.jpg" alt="">
+      <h4>Fruits</h4>
+      <span>UP TO 30% OFF</span>
+    </div>
+
+    <div class="essential-card">
+      <img src="meat.jpg" alt="">
+      <h4>Meat</h4>
+      <span>UP TO 25% OFF</span>
+    </div>
+
+    <div class="essential-card">
+      <img src="dairy.jpg" alt="">
+      <h4>Dairy</h4>
+      <span>UP TO 20% OFF</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="footer-container">
+
+    <!-- Left Column -->
+    <div class="footer-col">
+      <h1 class="logo"><b>MEGAMART</b></h1>
+
+      <h4>Contact Us</h4>
+      <p>Whats App<br>+91 9310653701</p>
+      <p>Call Us<br>+91 9629443659</p>
+
+      <h4>Download App</h4>
+      <div class="app-buttons">
+        <img src="appstore.jpg" alt="App Store">
+        <img src="play store.jpg" alt="Google Play">
+      </div>
+    </div>
+
+    <!-- Middle Column -->
+    <div class="footer-col">
+      <h4>Most Popular Categories</h4>
+      <ul>
+        
+        <li>Personal Care</li>
+        <li>Home Care</li>
+        <li>Vegetables & Fruits</li>
+        <li>Snacks & Foods</li>
+        <li>Dairy & Bakery</li>
+      </ul>
+    </div>
+
+    <!-- Right Column -->
+    <div class="footer-col">
+      <h4>Customer Services</h4>
+      <ul>
+        <li>About Us</li>
+        <li>Terms & Conditions</li>
+        <li>Privacy Policy</li>
+        <li>E-waste Policy</li>
+        <li>Cancellation & Return Policy</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    © 2025 All rights reserved. Reliance Retail Ltd.
+  </div>
+</footer>
+
+</body>
+</html>
